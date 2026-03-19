@@ -1,0 +1,33 @@
+llm:
+  provider: openai
+  model: gpt-4o-mini
+  temperature: 0.7
+  max_tokens: 300
+
+# SPEECH-TO-TEXT (STT)
+stt:
+  engine: faster_whisper
+  model_size: base
+  language: en
+
+# TEXT-TO-SPEECH (TTS)
+tts:
+  engine: pyttsx3
+  rate: 180
+  volume: 1.0
+
+# AUDIO SETTINGS
+audio:
+  sample_rate: 16000
+  chunk_size: 1024
+  channels: 1
+
+# DATABASE CONFIG
+database:
+  type: sqlite
+  path: data/assistant.db
+
+# APP SETTINGS
+app:
+  wake_word: "hey assistant"
+  debug: true
