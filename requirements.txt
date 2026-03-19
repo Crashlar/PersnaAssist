@@ -1,0 +1,7 @@
+setuptools
+langchain 
+langgraph
+pyaudio
+sounddevice
+faster-whisper
+pyttsx3
