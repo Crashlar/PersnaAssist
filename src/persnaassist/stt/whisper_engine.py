@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+import speech_recognition as sr
 from faster_whisper import WhisperModel
 import numpy as np
 
@@ -55,8 +55,7 @@ class WhisperEngine:
             text += segment.text + " "
 
         return text.strip()
-=======
-import speech_recognition as sr
+    
 
 def speech_to_text_from_mic():
     recognizer = sr.Recognizer()
@@ -71,5 +70,3 @@ def speech_to_text_from_mic():
         return "Could not understand audio"
     except sr.RequestError as e:
         return f"Error: {e}"
-
->>>>>>> 708e1532998f7d2c57644d8f5c60c3d35e78f530

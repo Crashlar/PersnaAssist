@@ -7,7 +7,6 @@ from pathlib import Path
 # DATABASE SETUP
 # ==============================
 
-
 BASE_DIR = Path(__file__).resolve().parent.parent.parent.parent
 DB_DIR = BASE_DIR / "data"
 DB_DIR.mkdir(exist_ok=True)
