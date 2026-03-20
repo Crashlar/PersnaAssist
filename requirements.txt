@@ -5,3 +5,10 @@ pyaudio
 sounddevice
 faster-whisper
 pyttsx3
+openai 
+google-generativeai 
+python-dotenv 
+requests
+langchain_openai
+google-genai
+dvc

@@ -6,3 +6,4 @@ from .tts.tts_engine import TTSEngine
 from .stt.whisper_engine import WhisperEngine
 from .db.database import init_db , DatabaseManager
 from .stt.whisper_engine import WhisperEngine
+from .pipeline.assistant import VoiceAssistant

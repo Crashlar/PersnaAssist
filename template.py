@@ -24,6 +24,7 @@ structure = [
     "requirements.txt",
     ".gitignore",
     "LICENSE",
+    ".env",
     "config/config.yaml",
 
     # Main package
