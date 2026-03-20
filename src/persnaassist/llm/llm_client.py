@@ -54,7 +54,6 @@ openai_model = None
 if openai_api:
     openai_model = ChatOpenAI(
         model="gpt-4o-mini",
-        api_key=openai_api,
         temperature=0.7
     )
 

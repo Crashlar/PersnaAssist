@@ -26,6 +26,9 @@ structure = [
     "LICENSE",
     ".env",
     "config/config.yaml",
+    "stream.py",
+    "Dockerfile",
+    ".dockerignore",
 
     # Main package
     f"src/{PACKAGE_NAME}/__init__.py",
